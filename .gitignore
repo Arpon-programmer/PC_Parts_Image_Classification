@@ -1,0 +1,22 @@
+# macOS system files
+.DS_Store
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA / WebStorm / PhpStorm settings
+.idea/
+
+# Python cache
+__pycache__/
+
+# Flutter and Dart
+.dart_tool/
+.flutter-plugins
+.packages
+
+# Logs and backups
+*.log
+*.tmp
+*.bak
+*.swp
