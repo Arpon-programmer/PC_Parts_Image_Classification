@@ -9,8 +9,8 @@ models:
           pretrained: false
           total_conv_layers: 1
           image_channels: 1
-          total_fc_layers: 2
-          total_layers: 3
+          total_fc_layers: 1
+          total_layers: 2
           total_parameters: 6,225
           total_trainable_parameters: 6,225
           total_non_trainable_parameters: 0
@@ -19,12 +19,74 @@ models:
       - version: "1.1"
         type: "AlexNet"
         basic_info:
-          input_size: 236
-          num_classes: 4
+          input_size: 256
+          num_classes: 14
           pretrained: false
-          total_conv_layers: ? 
-          total_fc_layers: ?
-          total_layers: ?
-          total_parameters: ?
-          total_trainable_parameters: ?
-          total_non_trainable_parameters: ?
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 6,297
+          total_trainable_parameters: 6,297
+          total_non_trainable_parameters: 0
+          total_model_size: 0.84 MB
+      
+      - version: "1.2"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 62,124
+          total_trainable_parameters: 62,124
+          total_non_trainable_parameters: 0
+          total_model_size: 0.83 MB
+      
+      - version: "1.3"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 62,844
+          total_trainable_parameters: 62,844
+          total_non_trainable_parameters: 0
+          total_model_size: 1.36 MB
+      
+      - version: "1.4"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 621,114
+          total_trainable_parameters: 621,114
+          total_non_trainable_parameters: 0
+          total_model_size: 5.92 MB
+      
+      - version: "1.5"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 628,314
+          total_trainable_parameters: 628,314
+          total_non_trainable_parameters: 0
+          total_model_size: 6.48 MB
