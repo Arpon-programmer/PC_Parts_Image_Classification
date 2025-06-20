@@ -18,10 +18,7 @@ model = torch.nn.Sequential(  # Define a simple sequential neural network model
 )
 
 test_data_dir = "/Users/arponbiswas/Computer-Vision-Projects/Image_classification_projects/PC_Parts_Image_Classification/Data/test_images"  # Path to the directory containing test images
-pc_parts_classes = [
-    'CPU', 'GPU', 'Motherboard', 'RAM', 'SSD', 'HDD', 'Power Supply',
-    'Cooling System', 'Case', 'Monitor', 'Keyboard', 'Mouse', 'Speaker', 'Webcam'
-]  # List of class names for PC parts
+pc_parts_classes = ['cables', 'case', 'cpu', 'gpu', 'hdd', 'headset', 'keyboard', 'microphone', 'monitor', 'motherboard', 'mouse', 'ram', 'speakers', 'webcam']  # List of class names for PC parts
 
 def model_operation(test_data_dir, image_channel):
     """
