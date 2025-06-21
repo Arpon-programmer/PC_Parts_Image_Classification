@@ -90,3 +90,33 @@ models:
           total_trainable_parameters: 628,314
           total_non_trainable_parameters: 0
           total_model_size: 6.48 MB
+
+      - version: "1.6"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 6,210,114
+          total_trainable_parameters: 6,210,114
+          total_non_trainable_parameters: 0
+          total_model_size: 59.2 MB
+      
+      - version: "1.7"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 1
+          total_layers: 2
+          total_parameters: 6,283,314
+          total_trainable_parameters: 6,283,314
+          total_non_trainable_parameters: 0
+          total_model_size: 64.8 MB
