@@ -120,3 +120,123 @@ models:
           total_trainable_parameters: 6,283,314
           total_non_trainable_parameters: 0
           total_model_size: 64.8 MB
+      
+      - version: "2.0"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 45,651
+          total_trainable_parameters: 45,651
+          total_non_trainable_parameters: 0
+          total_model_size: 0.48 MB
+          
+            - version: "2.1"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 45,723
+          total_trainable_parameters: 45,723
+          total_non_trainable_parameters: 0
+          total_model_size: 1.00 MB
+            
+            - version: "2.2"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 442,884
+          total_trainable_parameters: 442,884
+          total_non_trainable_parameters: 0
+          total_model_size: 2.35 MB
+
+            - version: "2.3"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 443,604
+          total_trainable_parameters: 443,604
+          total_non_trainable_parameters: 0
+          total_model_size: 2.88 MB
+
+            - version: "2.4"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 4,415,214
+          total_trainable_parameters: 4,415,214
+          total_non_trainable_parameters: 0
+          total_model_size: 21.10 MB
+
+            - version: "2.5"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 4,422,414
+          total_trainable_parameters: 4,422,414
+          total_non_trainable_parameters: 0
+          total_model_size: 21.65 MB
+
+            - version: "2.6"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 1
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 44,138,514
+          total_trainable_parameters: 44,138,514
+          total_non_trainable_parameters: 0
+          total_model_size: 208.57 MB
+
+            - version: "2.7"
+        type: "AlexNet"
+        basic_info:
+          input_size: 256
+          num_classes: 14
+          pretrained: false
+          total_conv_layers: 1
+          image_channels: 3
+          total_fc_layers: 2
+          total_layers: 3
+          total_parameters: 44,210,514
+          total_trainable_parameters: 44,210,514
+          total_non_trainable_parameters: 0
+          total_model_size: 209.38 MB
